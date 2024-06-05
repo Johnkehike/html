@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    /* color: #B7BCC5;    */
+}
+.navbar{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #4F46E5;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 0.6rem;
+    padding: 2rem 1rem 0.2rem 1rem;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+}
+.first-row{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4338CA;
+    color: #ffff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    margin-top: 1.4rem;
+    
+}
+.second-row{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4338CA; */
+    color: #C7D2FE;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    
+}
+
+.first-row-items{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.second-row-items{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.next-section{
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+}
+.next-section p {
+    font-size: 0.8rem;
+    color: #C7D2FE;
+}
+.next-section-icon{
+    background-color: #6366F1;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #C7D2FE;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+}
+
+.number{
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    border-radius: 1.2rem;
+    background-color: #4F46E5;
+    border: 1px solid #5A58EC;
+    color: #fff;
+}
+.last-row{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4338CA; */
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    margin-top: 4rem;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20rem;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20rem ;
+}
+.image-container{
+    width: 40px;
+    height: 40px;
+    margin-left: 0.6rem;
+    
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+/* .sidebar{
+    height: 100%;
+    background-color: #4F46E5;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+
+    
+} */
